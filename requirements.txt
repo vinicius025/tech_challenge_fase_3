@@ -1,0 +1,29 @@
+# Core
+python-dotenv==1.0.1
+pydantic==2.8.2
+loguru==0.7.2
+
+# LangChain + LangGraph
+langchain==0.2.16
+langchain-core==0.2.39
+langchain-community==0.2.16
+langgraph==0.2.20
+
+# RAG / Vetores
+chromadb==0.5.5
+
+# (Opcional) OpenAI (fallback / comparação)
+langchain-openai==0.1.22
+openai==1.40.6
+
+# Fine-tuning (LoRA)
+transformers==4.44.2
+datasets==2.20.0
+accelerate==0.33.0
+peft==0.12.0
+trl==0.9.6
+torch>=2.2.0
+
+# API demo (para vídeo e avaliação)
+fastapi==0.112.0
+uvicorn==0.30.5

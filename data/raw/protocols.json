@@ -1,0 +1,12 @@
+[
+  {
+    "id": "HAS_001",
+    "title": "Hipertensão Arterial (educativo)",
+    "content": "Hipertensão pode ser assintomática. Confirmar com medições repetidas. Mudanças de estilo de vida ajudam: reduzir sal, manter peso saudável, atividade física, evitar tabaco e moderar álcool. Em sinais de gravidade, procurar urgência."
+  },
+  {
+    "id": "DOR_TORACICA_001",
+    "title": "Dor torácica (alerta)",
+    "content": "Dor no peito com falta de ar, sudorese, desmaio, fraqueza súbita ou irradiação é sinal de alerta e requer atendimento imediato."
+  }
+]
