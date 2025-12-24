@@ -9,12 +9,14 @@ OUT_DIR = "models/finetuned"
 
 
 def formatting(example):
-    return f"""### Instrução
+    return [f"""### Instrução
 {example['input']}
 
 ### Resposta
 {example['output']}
-"""
+"""]
+
+
 
 
 def main():

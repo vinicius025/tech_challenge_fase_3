@@ -84,12 +84,20 @@ def node_answer(state: AgentState) -> AgentState:
 
 def build_graph():
     g = StateGraph(AgentState)
+
     g.add_node("triage", node_triage)
     g.add_node("retrieve", node_retrieve)
-    g.add_node("answer", node_answer)
+    g.add_node("generate_answer", node_answer)
 
+    # UM único ponto de entrada
     g.set_entry_point("triage")
+
+    # fluxo linear correto
     g.add_edge("triage", "retrieve")
-    g.add_edge("retrieve", "answer")
-    g.add_edge("answer", END)
+    g.add_edge("retrieve", "generate_answer")
+
+    # FINAL explícito
+    g.add_edge("generate_answer", END)
+
     return g.compile()
+

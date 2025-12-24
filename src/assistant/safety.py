@@ -11,7 +11,7 @@ def safety_check(text: str) -> tuple[bool, str]:
     for pat in FORBIDDEN:
         if re.search(pat, low):
             return False, (
-                "⚠️ Resposta ajustada para manter caráter educativo e seguro. "
+                "Resposta ajustada para manter caráter educativo e seguro. "
                 "Procure um profissional de saúde para avaliação. "
                 "Se houver sinais de gravidade, busque atendimento imediato."
             )

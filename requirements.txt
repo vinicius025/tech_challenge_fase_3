@@ -10,7 +10,7 @@ langchain-community==0.2.16
 langgraph==0.2.20
 
 # RAG / Vetores
-chromadb==0.5.5
+chromadb==0.4.15
 
 # (Opcional) OpenAI (fallback / comparação)
 langchain-openai==0.1.22
@@ -27,3 +27,4 @@ torch>=2.2.0
 # API demo (para vídeo e avaliação)
 fastapi==0.112.0
 uvicorn==0.30.5
+

@@ -1,10 +1,20 @@
-.venv/
-venv/
+# Modelos treinados
+models/
+
+# Cache Python
 __pycache__/
-*.pyc
-.cache/
-logs/*.log
-.env
-models/finetuned/
-.DS_Store
-Thumbs.db
+**/__pycache__/
+
+# Dados
+data/raw/
+data/processed/
+
+# Chroma
+**/chroma/
+**/*.sqlite3
+
+# Ambiente virtual
+.venv/
+
+# Logs
+logs/

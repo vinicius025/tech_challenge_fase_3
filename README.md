@@ -233,4 +233,4 @@ e não deve ser utilizado como ferramenta clínica real.
 
 **Link do Vídeo de Demonstração**
 
-- Vídeo de demonstração part 3:
+- Vídeo de demonstração part 3: https://youtu.be/t98XMMBfYbs
